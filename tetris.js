@@ -132,8 +132,8 @@ function create() {
 	piece.push(new Block(0,3));
 	// piece.push(new Block(1,3));
 
-	stack.push(new Block(1,0));
-	// stack.push(new Block(1,4));
+	// stack.push(new Block(1,0));
+	stack.push(new Block(1,4));
 	for(var i = 0; i <= stack.length-1; i++) {
 		stack[i].active = false;
 	}
